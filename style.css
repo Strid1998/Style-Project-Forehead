@@ -312,6 +312,26 @@ footer {
     form {
         padding: 12px;
     }
+    .logo {
+        display: none;
+    }
+    
+    figure {
+        width: 100;
+    }
+    
+    .about__logo {
+        display: none;
+    }
+    
+    .discord__logo {
+        display: none;
+    }
+    .discord__para {
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 576px) {
