@@ -317,7 +317,7 @@ footer {
     }
     
     figure {
-        width: 100;
+        width: 100%;
     }
     
     .about__logo {
@@ -331,16 +331,29 @@ footer {
         display: flex;
         align-items: center;
     }
-
+    
+    footer {
+        padding: 48px 24px;
+    }
+    .footer__logo {
+        max-width: 360px;
+    }
+    .footer__link {
+        padding: 0 4px;
+        font-size: 18px;
+    }
+    .footer__links {
+        margin-bottom: 24px;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 505px) {
     .logo {
         display: none;
     }
     
     figure {
-        width: 100;
+        width: 100%;
     }
     
     .about__logo {
