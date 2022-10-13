@@ -314,7 +314,7 @@ footer {
     }
 }
 
-@media (max-width: 505px) {
+@media (max-width: 576px) {
     .logo {
         display: none;
     }
